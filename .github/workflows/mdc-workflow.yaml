@@ -22,7 +22,7 @@ dev:
 
   steps:
    - name: Fase de Desenvolvimento
-     run: echo "Deploy no ambiente de desenvolvimento!" ]
+     run: echo "Deploy no ambiente de desenvolvimento!"
 
 qa:
   runs-on: ubuntu-latest
