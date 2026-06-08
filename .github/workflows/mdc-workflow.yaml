@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout de Código 
-        uses: actions/checkout@v4 #baixa todo código do repo na maquina virtual
+        uses: actions/checkout@v6 #baixa todo código do repo na maquina virtual
 
       - name: Mostrar Mensagem
         run: echo "Olá, Mundo Devops!"
